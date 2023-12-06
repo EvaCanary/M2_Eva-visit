@@ -95,7 +95,7 @@
     }
 }
 @media (max-width: 576px) {
-    .contacts__img {
+    .form__img {
         display: none;
     }
 }
