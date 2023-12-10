@@ -2,8 +2,35 @@
     padding-top: 150px;
     padding-bottom: 150px;
 }
-.project__title {
+.project__title-main {
     margin-bottom: 30px;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.65px;
+    color: #FFF;}
+.project__title {
+    top: 50px;
+    left: 45px;
+    padding: 10px 20px ;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    display: inline-flex;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    text-decoration: none;
+    border: 1px solid #FF9913;
+    color: #000;
+    background-color: #FF9913;
+}
+.project__name {
     font-size: 55px;
     font-style: normal;
     font-weight: 400;
@@ -30,7 +57,7 @@
     border-radius: 30px;
 }
 .project__name {
-    top: 313px;
+    top: 370px;
     left: 50px;
     position: relative;
     max-width: fit-content;
@@ -42,7 +69,7 @@
     color: #FFF;
 }
 .project__description {
-    top: 317px;
+    top: 380px;
     left: 50px;
     position: relative;
     max-width: fit-content;
@@ -54,7 +81,7 @@
     color: #FFF;
 }
 .project__btn {
-    padding: 56px;
+    line-height: 153px;
     max-width: 582px;
     text-align: center;
     align-items: center;
@@ -74,18 +101,52 @@
     background-color: #17181D;
 }
 @media (max-width: 961px) {
-   
+    .project {
+        padding-top: 100px;
+    }
+    .project__btn {
+        line-height: 124px;
+        max-width: 460px;
+    }
+    .project__title-main {
+        font-size: 45px;
+    }
 }
 @media (max-width: 576px) {
+.project {
+    padding-top: 100px;
+}
+.project__title-main {
+    font-size: 35px;
+    max-width: 268px;
+}
+.project__title {
+    top: 36px;
+    font-size: 15px;
+    letter-spacing: -0.39px;
+}
 .project__name {
-    
+    top: 280px;
 }
 .project__description {
-    
+    top: 300px;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.48px;
+}
+.project__item {
+    height: 445px;
+}
+.project__img {
+    height: 445px;
+}
+.project__container {
+    padding-bottom: 60px;
+}
+.project__btn {
+    line-height: 80px;
+    font-size: 20px;
 }
 }

@@ -35,16 +35,23 @@
         background-position: 40%;
     }
     .hero__title {
-        max-width: 703px;
+        font-size: 60px;
+        max-width: 727px;
+    }
+    .hero__text {
+        max-width: 300px;
     }
 }
 @media (max-width: 576px) {
     .hero__title {
-        font-size: 50px;
+        line-height: 50px;
+        font-size: 40px;
         max-width: 400px;
     }
     .hero__text {
-        max-width: 300px;
+        font-size: 18px;
+        letter-spacing: -0.45px;
+        max-width: 200px;
     }
 
 }
