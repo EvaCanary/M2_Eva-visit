@@ -1,4 +1,4 @@
-.service {
+.services {
    margin-bottom: 110px;
  }
 .service__box {
@@ -13,7 +13,7 @@
    border-radius: 30px;
    background-color: #292C35;
 }
-.service__title-main {
+.services__title {
    max-width: 403px;
    margin: 0 5px;
    margin-bottom: 80px;
@@ -52,11 +52,6 @@
    letter-spacing: -0.66px;
    color: #FFF;
  }
- @media (max-width: 961px) {
-   .header__link {
-       display: none;
-   }
-}
 @media (max-width: 576px) {
     .service__box {
       flex-direction: column;

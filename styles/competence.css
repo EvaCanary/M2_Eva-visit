@@ -1,17 +1,17 @@
-.competence {
+.competences {
    padding-bottom: 110px
 }
-.competence__container {
+.competences__container {
    margin: 0 auto;
    max-width: cover;
    background: cover;
 }
-.competence__list {
+.competences__list {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    gap: 20px;
 }
-.competence__title-main {
+.competences__title {
    margin-bottom: 80px;
    font-size: 55px;
    font-style: normal;
@@ -54,7 +54,7 @@
    color: #FFF;
  }
  @media (max-width: 961px) {
-   .competence__title-main {
+   .competences__title {
    font-size: 45px;
    font-weight: 400;
    letter-spacing: -1.35px;
