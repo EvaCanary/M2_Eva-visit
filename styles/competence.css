@@ -1,10 +1,5 @@
 .competences {
-   padding-bottom: 110px
-}
-.competences__container {
-   margin: 0 auto;
-   max-width: cover;
-   background: cover;
+   margin-bottom: 110px
 }
 .competences__list {
    display: grid;
